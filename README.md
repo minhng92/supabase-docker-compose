@@ -72,3 +72,13 @@ Before deploying to production:
 4. Set appropriate environment-specific variables for scaling and performance
 
 Never use the default credentials in a production environment as this poses significant security risks.
+
+# Screenshots
+
+<p>
+<img src="/screenshots/supabase-home.jpg" width="100%">
+</p>
+
+<p>
+<img src="/screenshots/supabase-database.jpg" width="100%">
+</p>
