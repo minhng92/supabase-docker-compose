@@ -17,6 +17,10 @@ Then open Supabase Studio at http://localhost:8000 and log in with the following
 - Username: supabase
 - Password: minhng.info (default password)
 
+<p>
+<img src="screenshots/supabase-docker-compose.gif" width="100%">
+</p>
+
 # SERVICES
 
 ## Checkpoints

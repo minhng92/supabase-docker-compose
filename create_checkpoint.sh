@@ -15,6 +15,6 @@ fi
 mkdir -p "$checkpoint_dir"
 
 # Copy all files and directories except .git and .gitignore
-rsync -av --exclude='.git' --exclude='.gitignore' --exclude='_checkpoints' ./ "$checkpoint_dir/"
+rsync -av --exclude='.git' --exclude='.gitignore' --exclude='create_checkpoint.sh' --exclude='run.sh' --exclude='_checkpoints' --exclude='screenshots' ./ "$checkpoint_dir/"
 
 echo "Checkpoint created at $checkpoint_dir"
