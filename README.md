@@ -13,9 +13,15 @@ curl -s https://raw.githubusercontent.com/minhng92/supabase-docker-compose/maste
 
 Replace `my-supabase` with your desired destination folder.
 
+Then open Supabase Studio at http://localhost:8000 and log in with the following credentials:
+- Username: supabase
+- Password: minhng.info (default password)
+
 # SERVICES
 
 ## Checkpoints
+
+This repository maintains snapshots of previous versions in the `checkpoints` directory. As the repository undergoes periodic updates, these historical checkpoints provide access to earlier configurations and component versions for reference or compatibility purposes.
 
 | Checkpoint  | supabase/studio | kong | supabase/gotrue | postgrest/postgrest | supabase/realtime | supabase/storage-api | darthsim/imgproxy | supabase/postgres-meta | supabase/edge-runtime | supabase/logflare | supabase/postgres | timberio/vector | supabase/supavisor |
 |-------------|----------------|------|-----------------|---------------------|-------------------|---------------------|-------------------|------------------------|----------------------|-------------------|-------------------|------------------|-------------------|
