@@ -8,7 +8,7 @@ This repository provides a pre-configured Docker Compose setup for [Supabase](ht
 To quickly install Supabase using Docker Compose, run:
 
 ```bash
-curl -s https://raw.githubusercontent.com/minhng92/supabase-docker-compose/master/run.sh | sudo bash -s my-supabase
+curl -s https://raw.githubusercontent.com/minhng92/supabase-docker-compose/master/run.sh | bash -s my-supabase
 ```
 
 Replace `my-supabase` with your desired destination folder.
