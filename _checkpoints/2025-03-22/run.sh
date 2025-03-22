@@ -29,4 +29,4 @@ rm -rf .git
 echo "Starting containers..."
 $DOCKER_COMPOSE_CMD up -d
 
-echo "Supabase has been started successfully!"
+echo "Supabase has been started successfully!\n- URL: http://localhost:8000\n- User: supabase\n- Password: minhng.info"
